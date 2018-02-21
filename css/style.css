@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background: url(../images/slider/2.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.header .section_overlay {
+    background-color: rgba(33, 33, 33, .75);
+}
+.logo{
+    padding-bottom: 50px;
+}
+.home_text{
+    text-align: left;
+    padding-left: 15px;
+}
+
+@media (max-width: 768px){
+    .home-iphone{
+        display: none;
+    }
+    .home_text{
+        text-align: center;
+    }
+
+}
+.home_text h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-top: 20px
+}
+.home_text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.form-control {
+    color: #ccc;
+    background-color: transparent;   
+    margin-bottom: 15px;
+}
+
+.home-btn:hover {
+	
+    background-color: #028fcc;
+    color: #fff;
+}
+.home-btn, .home-btn:focus, .home-btn:active, .home-btn:visited {
+    background: transparent;
+    border-color: #028fcc;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    border-color: #028fcc;
+}
